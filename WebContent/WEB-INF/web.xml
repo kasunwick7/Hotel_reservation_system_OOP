@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+         http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+         
+	<servlet>
+		<servlet-name>AdminLogin</servlet-name>
+		<servlet-class>com.admin.AdminLoginServlet</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>AdminLogin</servlet-name>
+		<url-pattern>/adminLog</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+    	<servlet-name>hotelInsert</servlet-name>
+    	<servlet-class>com.admin.HotelInsertServlet</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+    	<servlet-name>hotelInsert</servlet-name>
+    	<url-pattern>/hInsert</url-pattern>
+    </servlet-mapping>	
+    
+    
+    <servlet>
+    	<servlet-name>roomInsert</servlet-name>
+    	<servlet-class>com.admin.RoomInsertServlet</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+    	<servlet-name>roomInsert</servlet-name>
+    	<url-pattern>/rInsert</url-pattern>
+    </servlet-mapping>	
+    
+    <servlet>
+		<servlet-name>updateHotel</servlet-name>
+		<servlet-class>com.admin.UpdateHotelServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>updateHotel</servlet-name>
+		<url-pattern>/hUpdate</url-pattern>
+	</servlet-mapping>
+    
+    <servlet>
+		<servlet-name>updateRooms</servlet-name>
+		<servlet-class>com.admin.UpdateRoomsServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>updateRooms</servlet-name>
+		<url-pattern>/rmUpdate</url-pattern>
+	</servlet-mapping>
+    
+      <servlet>
+		<servlet-name>deleteHotel</servlet-name>
+		<servlet-class>com.admin.DeleteHotelServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>deleteHotel</servlet-name>
+		<url-pattern>/hDelete</url-pattern>
+	</servlet-mapping>
+	
+	 <servlet>
+		<servlet-name>deleteRooms</servlet-name>
+		<servlet-class>com.admin.DeleteRoomsServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>deleteRooms</servlet-name>
+		<url-pattern>/rDelete</url-pattern>
+	</servlet-mapping>
+     <servlet>
+		<servlet-name>deleteCusAd</servlet-name>
+		<servlet-class>com.admin.DeleteCustomerAdServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>deleteCusAd</servlet-name>
+		<url-pattern>/csDelete</url-pattern>
+	</servlet-mapping>
+
+</web-app>

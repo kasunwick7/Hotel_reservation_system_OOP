@@ -1,0 +1,265 @@
+@charset "ISO-8859-1";
+body
+{
+	background-image : url("../images/papers.co-si87-light-green-blue-sky-gradation-blur-35-3840x2160-4k-wallpaper.jpg");
+	background-repeat : no-repeat;
+	background-attachment : fixed;
+	background-position : center;
+	color : gray;
+	
+	
+}
+.DisplayBackground
+	{
+		background-color : #DCDCDC;
+		padding-left : 10px;
+		padding-bottom : 10px;
+		display : block;
+		margin-left : auto;
+		margin-right : auto;
+		
+		background-color : rgba(255,255,255,0.8);
+	}
+
+a
+{
+	text-decoration : none;
+	color :  #4d4d4d;
+}
+	
+
+ul.mainmenu
+	{
+	 background-color : #e6ffcc;
+	 overflow : hidden;
+	 list-style-type : none;
+	
+	}
+
+li 
+	{float : left;
+	 color : white;
+	 display : block;
+	 padding : 14px 16px;
+	 text-decoration : none;
+	 font-family : Century Gothic;
+	 font-size : 14px;
+	 font-weight: bold;
+
+	}
+li:hover
+	{background-color : #696969;
+	 font-size : 20px;
+	}
+
+	
+.mainPageLinks
+	{
+		background-color : 	#FFEBCD;
+		background-repeat : no-repeat;
+		background-attachment : fixed;
+		background-position : center;
+		padding : 10px;
+		border-style : double;
+		border-width : 4px;
+		border-color : #FFEBCD;
+		margin-top : 30px;
+		
+	}
+
+.destinations
+	{
+		
+		margin-top : 60px;
+		font-family : Arial;
+	 
+	}
+.informations
+	{
+		margin-top : 60px;
+		font-family : Arial;
+		background-color : rgba(166,166,166,0.8);
+	}
+
+
+
+.title1
+	{
+		font-family : Bahnschrift SemiCondensed;
+		color : white;
+		font-size : 50px;
+		text-shadow: 2px 2px black;
+		
+		
+	}
+	
+.title2
+	{
+		font-family : Agency FB;
+		color : white;
+		font-size : 30px;
+		letter-spacing : 4px;
+		text-shadow: 2px 2px black;
+	}
+
+.logo
+	{
+		display : block;
+	}
+
+.social
+	{
+		width : 60px;
+		height : 60px;
+		margin-top : 20px;
+		
+		
+	}
+	
+.contacts
+	{
+		width : 40px;
+		height : 40px;
+		
+		
+	}
+
+.bottom
+	{
+		background-color : rgba(0,0,0,0.8);
+		margin-top : 60px;
+		height : 350px;
+		
+	}
+.copyright
+	{
+		color : Tomato;
+		size : 25px;
+		font-family : Arial;
+
+		
+	}
+.socialmedia
+	{
+		color : white;
+		text-shadow : 1px 1px black;
+		
+	}
+.contactdetails
+	{
+		color : white;
+		text-shadow : 1px 1px black;
+	}
+.footerdetails
+	{
+		color : Tomato;
+		size : 15px;
+		font-family : Arial;
+	}
+.location
+	{
+		color : Tomato;
+		size : 15px;
+		font-family : Arial;
+	}
+.slider{
+	
+	background-color : rgba(0,0,0,0.8);
+	height:600px;
+	width:100%;
+	background:black;
+}
+
+.mySlidesb
+{
+	width:100%;
+	height:500px;
+	display:none;
+}
+
+input[type=text  ] 
+{
+	margin-top: 20px;
+  width: 600px;
+  height: 40px;
+  border-radius: 25px;
+   background-color: #E0FFFF;
+}
+
+
+input[type=password  ] 
+{
+	margin-top: 20px;
+  width: 600px;
+  height: 40px;
+  border-radius: 25px;
+   background-color: #E0FFFF;
+}
+input[type=submit] 
+{
+	margin-top: 20px;
+  background-color: #87CEFA;
+  width: 200px;
+  height: 45px;
+  border-radius: 25px;
+  
+}	
+#table {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#table td, #table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#table tr:nth-child(even){
+	background-color: #f2f2f2;}
+
+#table tr:hover {
+	background-color: #ddd;}
+
+#table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
+button{
+	
+	background-color:dodgerblue;
+	border:2px solid lightblue;
+	color:white;
+	padding:12px;
+	text-align:center;
+	font-size:16px;
+	cursor:pointer;
+	border-radius:8px;
+
+}
+
+button:hover {
+	
+	background-color:lightgray;
+	color:black;
+}
+#inp{
+	background-color:dodgerblue;
+	border:2px solid lightblue;
+	color:white;
+	padding:12px;
+	text-align:center;
+	font-size:16px;
+	cursor:pointer;
+	border-radius:8px;
+	
+	
+}
+#inp:hover {
+	
+	background-color:lightgray;
+	color:black;
+}
